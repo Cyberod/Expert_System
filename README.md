@@ -9,7 +9,8 @@ The Banquet menu planner varies over three courses, the dishes are based on nige
 Each time the user is meant to give an input based on the instruction on the screen, The Menu Planner randomly selects dishes based on the the Budget(but not up to the budget, thus helping the user save money also) and Season.
 
 ### How to run the code
-you can use any IDE that has a compiler (Preferably DevC++)
+- type ./main on your shell command line or
+- you can use any IDE that has a compiler (Preferably DevC++)
 
 ### Challenges Encountered
 - Poor Workspace
