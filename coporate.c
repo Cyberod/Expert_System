@@ -2,6 +2,19 @@
 
 void Corporate(void)
 {
+	// Define Corpotrate Event Courses
+	char *corp_appetizers[] = {"Cheesy Yam Balls", "Bowl of Peppered Kpomo", "Plantain Chicken Pies", "Honey garlic Oxtail Bites"};
+	char *corp_main[] = {"Chicken Stew", "Ofe Aku Stew"};
+	char *corp_sides[] = {"Fried Rice", "Jollof Rice", "White Rice", "Coconut Rice","Fried Plantain", "Creamed Corn", "Macaroni Salad", "Salad"};
+	char *corp_drinks[] = {"Wine"};
+	
+	// Define corporate Event prices in Naira
+	float corp_main_prices[] = {19999.99, 9999.99};
+	float corp_side_prices[] = {24999.99, 24999.99, 17999.99, 24999.99, 4999.99, 4999.99, 4999.99, 4999.99};
+	float corp_drink_prices[] = {29999.99};
+	float corp_appetizer_prices[] = {14999.99, 9999.99, 7999.99, 4999.99};
+	
+	
 	int budget = Budget();
 	system("cls");
 	
