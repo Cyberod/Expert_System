@@ -2,13 +2,24 @@
 
 void Birthday(void)
 {
+	// Define Birthday Event Courses
+	char *birth_appetizers[] = {"Peppered Kpomo", "Plantain Chicken Pies", "Honey garlic Oxtail Bites", "Deviled Eggs", "Turkey Wings", "Peppered Gizzard", "Plantain Chips", "Suya", "Chin-Chin"};
+	char *birth_main[] = {"Chicken Stew", "Goat Pepper Soup", "Yam Porridge", "Kllishi", "Ofe Aku"};
+	char *birth_sides[] = {"Fried Rice", "Jollof Rice", "White Rice", "Coconut Rice", "Fried Plantain", "Creamed Corn", "Macaroni Salad", "Salad"};
+	char *birth_drinks[] = {"Wine", "Kunun Zaki(Millet Drink)","Zobo(Hibiscus Tea)", "Chapman", "Cocacola", "Tiger Nut Milk", "Fura da Nono" "Soya Milk", "Guiness", "Heineken", "Goldberg", "Star"};
+	// Define Birthday Event prices in Naira
+	float birth_appetizer_prices[] = {4999.99, 7999.99, 4999.99, 4999.99, 4999.99, 9999.99, 4999.99, 7999.99, 9999.99, 4999.99, 4999.99};
+	float birth_main_prices[] = {19999.99, 24999.99, 14999.99, 9999.99, 9999.99};
+	float birth_side_prices[] = {24999.99, 24999.99, 17999.99, 24999.99, 4999.99, 4999.99, 4999.99, 4999.99};
+	float birth_drink_prices[] = {29999.99, 9999.99, 9999.99, 9999.99, 14999.99, 9999.99, 9999.99, 9999.99, 9999.99, 9999.99, 9999.99, 9999.99};
+	
 	Season();
 	int budget = Budget();
 	system("cls");
 	
 	//define variables to be used
 	float total_cost = 0.00;	//total cost of each course
-    float grand_total = 0.00;	//Grand total amount
+    	float grand_total = 0.00;	//Grand total amount
     
     
    
