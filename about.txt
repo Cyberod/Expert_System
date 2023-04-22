@@ -1,0 +1,3 @@
+This Project was given me by my Lecturer Mr. Onyebuche Chiemerie, This project is in partial fufilment to a general Assignment on CSC 413 (Expert System).
+The Assignment is to create Wedding Menu Planner: a multi course banquet menu. Based on the nature of the event, the season (what’s obtainable) and the budget.
+Thank you Sir for this project, it was really worth flexing my coding Muscles.
