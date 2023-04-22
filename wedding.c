@@ -2,6 +2,16 @@
 
 void Wedding(void)
 {
+	// Define Wedding Event Courses
+	char *wed_main[] = {"Pot(s) of Chicken Stew", "Pot(s) of Goat Pepper Soup", "Pot(s) of Yam Porridge","Pot(s) of Egusi","Pot(s) of Ofe Aku", "Pot(s) of Ogbono Soup", "Pot(s) of Efo Riro(Spinach Stew)"};
+	char *wed_appetizers[] = {"Bowl of Peppered Kpomo", "Bowl of Peppered Gizzard", "Garden Eggs and Groundnut Paste"};
+	char *wed_sides[] = {"Pot(s) of Fried Rice", "Pot(s) of Jollof Rice", "Pot(s) White Rice", "Pot(s)Coconut Rice", "Cooler(s) of Eba", "coolers(s) of Fufu", "Pot(s) of Moi-Moi", "Pot(s) of Fried Plantain"};
+	char *wed_drinks[] = {"Crate(s) of Wine", "Bottle(s) Palm Wine", "Bottle(s) of Chapman", "Crate(s) of Cocacola", "Bottle(s) of Fura da Nono", "Crate(s) of Guiness", "Crate(s) of Goldberg", "Crate of Star"};
+	float wed_appetizer_prices[] = {9999.99, 7999.99, 4999.99};
+	float wed_main_prices[] = {19999.99, 24999.99, 14999.99, 9999.99, 9999.99, 9999.99, 9999.99};
+	float wed_side_prices[] = {24999.99, 24999.99, 17999.99, 24999.99, 9999.99, 9999.99, 14499.99, 4999.99};
+	float wed_drink_prices[] = {29999.99, 14999.99, 9999.99, 14999.99, 9999.99, 9999.99, 9999.99, 9999.99};
+
 	Season();
 	
 	float budget;
@@ -11,10 +21,10 @@ void Wedding(void)
 	
 	//define variables to be used
 	float total_cost;	//total cost of each course
-    float grand_total;	//Grand total amount
+    	float grand_total;	//Grand total amount
     
-    total_cost = 0.00;
-    grand_total = 0.00;
+    	total_cost = 0.00;
+    	grand_total = 0.00;
     
 	
 	float main_budg = (0.4 * budget);
